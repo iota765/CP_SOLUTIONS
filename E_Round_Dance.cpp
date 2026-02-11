@@ -13,7 +13,9 @@ vector<vector<int>>adj;
 
 void dfs(int i, int &cycle ,int &len){
     vis[i]=true;
+    len++;
     if(adj[i].size()<2) cycle=false;
+
     for(auto j:adj[i]){
         if(vis[j]) continue;
         dfs(j,cycle,len);
@@ -41,6 +43,7 @@ void solve() {
         }
         else b++;
     }
+    
     if(b){
         cout<<c+1<<" "<<c+b<<endl;
     }
