@@ -24,8 +24,6 @@ void solve() {
         cout<<"Alice"<<endl;
     }
 
-    // bob can make this difference constant
-
 
 }
 
