@@ -4,13 +4,13 @@ from bisect import bisect_left, bisect_right
 from collections import deque, Counter
 input = sys.stdin.readline
 
-def is_prime(x):
-    i=2
-    while(i*i<=x):
-        if(x%i==0):
-            return False
-        i+=1
-    return True
+# def is_prime(x):
+#     i=2
+#     while(i*i<=x):
+#         if(x%i==0):
+#             return False
+#         i+=1
+#     return True
 
 
 # def is_sc(x):
