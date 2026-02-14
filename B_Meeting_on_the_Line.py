@@ -17,7 +17,7 @@ def check(T,x,t,n):
         if(l>r):
             return False,0.0
     return True,(l+r)/2
-
+ 
 
 
 def solve():
