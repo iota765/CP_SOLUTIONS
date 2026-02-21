@@ -43,7 +43,7 @@ void solve() {
         for(int i=0;i<n;i++){
             x=relaxant[x];
         }
-
+ 
         vector<int>cycle;
         for(int curr=x;;curr=relaxant[curr]){
             cycle.push_back(curr);
